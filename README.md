@@ -9,9 +9,9 @@ This script is used for verifying all predeployed contracts defined in [addresse
 ```shell
 $ make compile
 $ python verify.py \
-  --chainId 7560 \
-  --rpcUrl https://cyber.alt.technology \
-  --browserApiUrl https://cyberscan.co/api \
-  --browserUrl https://cyberscan.co \
-  --proxyOwner 0x299D82fb870e5c0A9a81ff906837Fe617E9dFcAd
+  --chainId 173265 \
+  --rpcUrl https://op-plasma-near-testnet.alt.technology \
+  --browserApiUrl https://op-plasma-near-testnet-explorer.alt.technology/api \
+  --browserUrl https://op-plasma-near-testnet-explorer.alt.technology/ \
+  --proxyOwner 0x67DB1D192eeA96acCe6fD0dDb0D89e85cB313Ad0
 ```
